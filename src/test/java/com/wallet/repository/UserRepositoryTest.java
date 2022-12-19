@@ -20,6 +20,7 @@ import com.wallet.entity.User;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @ActiveProfiles("test")
+
 public class UserRepositoryTest {
 	private static final String EMAIL = "email@teste.com";
 	@Autowired
